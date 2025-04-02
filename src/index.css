@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1d2745;
+  --color-secondary: #1de5d4;
+  --color-tertiary: #1d2745;
+  --color-white: #ffffff;
+  --color-mono100: #f1f1f1;
+  --color-mono200: #bebebe;
+  --color-mono300: #d6d7d9;
+  --color-error: #d01e1e;
+  --color-social: #395997;
+
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-base--letter-spacing: 0;
+  --text-base--font-weight: 400;
+  --text-sm: 14px;
+  --text-sm--line-height: 21px;
+  --text-sm--letter-spacing: 0;
+  --text-sm--font-weight: 400;
+  --text-xs: 16px;
+  --text-xs--line-height: 18px;
+  --text-xs--letter-spacing: 0;
+  --text-xs--font-weight: 400;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-2xl--line-height: 36px;
+  --text-2xl--letter-spacing: 0;
+  --text-2xl--font-weight: 700;
+}
+
+body {
+  font-family: "Noto Sans KR";
+}
